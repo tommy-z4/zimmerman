@@ -799,3 +799,22 @@ ol{
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
+
+h1, h2.section-title{
+  text-align: center;
+  margin-top: 100px;
+  direction: rtl;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+h2.section-title{ font-size: 2em; }
+@media(max-width:800px){
+  h2.section-title{ margin-left: 5%; margin-right: 5%; }
+}
+
+.contact-left-title h1{
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0 0 5px;
+  text-align: center;
+}
